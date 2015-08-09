@@ -4,6 +4,17 @@ Author URI: http://webthemez.com/
 Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
 License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
 */
+
+#logo {
+	height: 1em;
+	width:1em;
+}
+
+.text-center {
+	text-align: center;
+	margin: 0 auto;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
@@ -942,6 +953,11 @@ footer {
 }
 
 @media (max-width:980px) {
+
+.only-show-when-small {
+	display:none;
+}
+
 .hero-text {
 	margin: 18% auto 24px;
 }
@@ -956,6 +972,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+
+.only-show-when-small {
+	display:none;
+}
+
 .header .navbar-brand {
 	padding-left: 0;
 }
@@ -972,6 +993,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+.only-show-when-small {
+	display:none;
+}
 .banner-container {
 	background-size: contain;
 }
@@ -1056,6 +1080,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+.only-show-when-small {
+	display:block;
+}
 .banner-container {
 	background-size: contain;
 }
@@ -1074,6 +1101,9 @@ footer {
 }
 .arrow-link {
 	display: none;
+}
+.tow-boat-logo {
+	display:none;
 }
 .da-slide h2 {
 	font-size: 22px;
@@ -1133,6 +1163,10 @@ footer {
 }
 
 @media (max-width: 320px) {
+.only-show-when-small {
+	display:block;
+}
+
 .banner-container {
 	background-size: contain;
 }
